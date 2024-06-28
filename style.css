@@ -249,3 +249,112 @@ margin-top: 60px;
 .work1{
  
 }
+/* discover section */
+.discover {
+}
+
+.discover__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discover__cards {
+  display: flex;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.discover__card {
+  background: #3B3B3B;
+  border-radius: 20px;
+
+}
+
+.discover__card-img {
+}
+
+.discover__card-box {
+padding: 20px 30px 25px;
+}
+
+.discover__card-name {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.discover__card-price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  p{
+    opacity: 50%;
+    margin-bottom: 8px;
+  }
+}
+/* JOIN SECTION */
+.join {
+}
+.join__wrapper {
+  background-color: #3b3b3b;
+  padding: 60px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.join__img {
+}
+.join__box {
+
+  p{
+    opacity: 50%;
+  }
+  
+}
+
+.form{
+  display: flex;
+  margin-top: 40px;
+  input{
+    border: none;
+    padding: 0 20px;
+    border-radius: 20px 0 0 20px;
+  }
+  button{
+    position: relative;
+    left: -20px;
+  }
+}
+/* FOOTER SECTION */
+footer{
+  background-color: #3B3B3B;
+}
+.footer__wrapper {
+  display: flex;
+  gap: 90px;
+ p{
+  padding-top: 20px;
+ }
+ 
+}
+.footer__box {
+  p{
+    opacity: 50%;
+    margin-top: 10px;
+  }
+}
+.footer__logo {
+}
+.footer__icons {
+  padding-top: 20px;
+}
+
+.footer__copyright {
+  display: flex;
+ height: 200px;
+ align-items: center;
+ justify-content: start;
+ opacity: 50%;
+}
