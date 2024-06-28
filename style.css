@@ -330,10 +330,12 @@ padding: 20px 30px 25px;
 /* FOOTER SECTION */
 footer{
   background-color: #3B3B3B;
+  padding-top: 20px;
 }
 .footer__wrapper {
   display: flex;
   gap: 90px;
+  
  p{
   padding-top: 20px;
  }
